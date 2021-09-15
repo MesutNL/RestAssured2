@@ -1,0 +1,15 @@
+Web Sayfaları yazılımında şöyle kurallar var ;
+
+-> bir istek geldiğinde bu isteğin ana sayfanın yani https://gorest.co.in/
+bunun devamında gelenleri şu şekilde fonksiyonlara gönder diye kural tanımlanıyor
+
+kural şu ilk geleni public/v1/posts/1534 bu linkteki
+ilk public i klasör kabul et
+sonrakini (v1) klasör kabule et
+sonrakini posts ait metodların olduğu sayfaya gönder (aynı bütün bir class gibi olan sayfa)
+sonrakini posts sayfasının(class ının) içindeki metoda gönder
+
+
+Web sitesinde olmayan bir link yani yol yani kaynak yani istek gelir ise
+   -> ortak genel sayfaya gönderiyor (sayfa yok linki var)
+   -> API çalışmış ve bu şekilde bit post yok

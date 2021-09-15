@@ -1,0 +1,7 @@
+Veridabalarında Tarihleri tarih olarak saklamazlar neden ?
+çünkü her bölge veya yerel duruma göre formatları değişir.
+
+    her tarihe karşılık gelen bir zaman sayısı vardır :
+dolayısıyla özellikle tüm dünyaya hitap eden yazılımların (web vs)
+Databaslerinde tarih sayı olarak saklanır. Ekranda yerel dile göre çevrilerek
+gösterilir.
