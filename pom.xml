@@ -39,6 +39,7 @@
         </dependency>
     </dependencies>
     <!--    Aşağıdaki plugin Jenkins in bu projeyi çalıştıracağı zaman hangi dosyayı çalıştıracağını (testng.xml) belirtiyoruz-->
+    <!--    Aşağıdaki plugin Jenkins in bu projeyi çalıştıracağı zaman hangi dosyayı çalıştıracağını (testng.xml) belirtiyoruz-->
     <build>
         <plugins>
             <plugin>
